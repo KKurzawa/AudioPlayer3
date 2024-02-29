@@ -2,7 +2,7 @@ import './App.css'
 
 const App = () => {
   return (
-    <div>App</div>
+    <main className='app'>App</main>
   )
 }
 
