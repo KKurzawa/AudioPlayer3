@@ -28,3 +28,9 @@
     padding-right: .4rem;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px){
+.volume {
+    display: none;
+}
+}

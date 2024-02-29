@@ -3,6 +3,11 @@
     justify-content: center;
     margin-top: 40px;
 }
+
+.audio-player-header{
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
 .main-container {
     display: flex;
     flex-direction: column;
@@ -25,6 +30,6 @@
     cursor: pointer;
 }
 
-#left-header {
+/* #left-header {
     font-size: 1.3rem;
-}
+} */

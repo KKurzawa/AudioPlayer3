@@ -23,7 +23,7 @@ const DisplayTrack = ({
                 onEnded={handleNext}
             />
             <div className="flex flex-col audio-info">
-                <div className="audio-image ">
+                <div className=" ">
                     <img className='album-cover' src={currentTrack.thumbnail} alt="audio avatar" />
                 </div>
                 <div className="text">

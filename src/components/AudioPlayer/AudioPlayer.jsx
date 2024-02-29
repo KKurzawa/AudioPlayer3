@@ -33,9 +33,9 @@ const AudioPlayer = () => {
     return (
         <main className="audio-player">
             <article className="main-container">
-                <section className='repeat-track-icons'>
-                    <h3 id="left-header">{trackIndex + 1}/{tracks.length}</h3>
-                    <i onClick={() => setOpen(prev => !prev)}><MdOutlineQueueMusic /></i>
+                <section className='audio-player-header'>
+                    <h3 id="left-header">Now Playing {trackIndex + 1}/{tracks.length}</h3>
+                    {/* <i onClick={() => setOpen(prev => !prev)}><MdOutlineQueueMusic /></i> */}
                 </section>
                 <DisplayTrack
                     {...{
@@ -62,7 +62,7 @@ const AudioPlayer = () => {
                         setIsPlaying
                     }}
                 />
-                <List props={{ open, setOpen, musicNumber, setMusicNumber, isPlaying, setIsPlaying, audioRef }} />
+                {/* <List props={{ open, setOpen, musicNumber, setMusicNumber, isPlaying, setIsPlaying, audioRef }} /> */}
             </article>
         </main>
     );
